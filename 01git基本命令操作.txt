@@ -1,0 +1,32 @@
+注册一个github账号  https://github.com/
+
+
+
+1.git官网下载安装包
+2.安装git，装完后，右键会出现两个git菜单
+  进入第二个，输入git --version 查看当前安装的版本信息
+3.基本配置
+  配置当前用户的name和email信息
+
+  git config --global user.name "Your Name"
+  git config --global user.email "email@example.com"
+
+  git config --list 查看当前配置信息
+
+4.初始化本地仓库 git init 
+
+  一般是一个项目一个仓库
+
+5.常用命令
+  添加到暂存区    git add 文件名
+  提交到仓库       git commit –m “描述”
+  查看git状态      git status
+  对比文件内容     git diff 文件名  （先提交a.txt到仓库，在修改工作区内容，接着再git diff ，对比与仓库版本的区别）
+  历史提交           git log  ， git log --pretty=oneline
+  版本回退           git reset –hard HEAD^/版本号
+       备注： ^表示一个版本 ^^回退两个版本
+
+
+
+将本地的至少3个文件 提交到个人的github仓库中去！
+作业提交仓库地址。
