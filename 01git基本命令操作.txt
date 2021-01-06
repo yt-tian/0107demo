@@ -8,8 +8,8 @@
 3.基本配置
   配置当前用户的name和email信息
 
-  git config --global user.name "Your Name"
-  git config --global user.email "email@example.com"
+  git config --global user.name "yt-tian"
+  git config --global user.email "1074965187@qq.com"
 
   git config --list 查看当前配置信息
 
